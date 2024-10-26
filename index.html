@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEYOND</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css"> <!-- Include Boxicons -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BEYOND</h1>
+            <p>Universal Weather Forecast</p>
+        </header>
+        <div class="search-container">
+            <select id="planet-select" aria-label="Select a planet for weather forecast">
+                <option value="" disabled selected>Choose a planet</option>
+                <option value="Mercury">Mercury</option>
+                <option value="Venus">Venus</option>
+                <option value="Mars">Mars</option>
+                <option value="Jupiter">Jupiter</option>
+                <option value="Saturn">Saturn</option>
+                <option value="Uranus">Uranus</option>
+                <option value="Neptune">Neptune</option>
+            </select>
+            <button type="button" onclick="redirectToPlanet()" aria-label="Search">
+                <i class='bx bx-search'></i>
+            </button>
+        </div>
+        <footer>
+            <div class="made-by">Made by [Syntax 404]</div> <!-- Replace [Your Name] with your name -->
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

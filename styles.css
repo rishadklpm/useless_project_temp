@@ -1,0 +1,604 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f; /* Dark grey background */
+    color: #000; /* Black text color */
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #ffffff; /* Set background to white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow for better contrast */
+    padding: 30px;
+    width: 300px;
+}
+
+h1 {
+    font-size: 4em; /* Increased font size */
+    margin: 0;
+    text-transform: uppercase; /* Make the text uppercase */
+    width: 100%; /* Set width to match the search bar */
+    color: #000; /* Ensure heading is black */
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0 20px; /* Space below the paragraph */
+    width: 100%; /* Set width to match the search bar */
+    color: #000; /* Ensure paragraph is black */
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center;
+    width: 100%; /* Match the container width */
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px; /* Space between select and button */
+    flex-grow: 1; /* Allow select to grow */
+    color: #000; /* Black text in the select dropdown */
+}
+
+button {
+    background-color: #007BFF;
+    color: white; /* Keep button text white */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: 2px solid #FFD700; /* Gold outline */
+}
+
+button:active {
+    transform: scale(0.98); /* Slightly shrink on click */
+}
+
+.made-by {
+    margin-top: 15px; /* Space above "Made by" text */
+    font-size: 0.9em; /* Smaller font size for "Made by" */
+    color: #000; /* Ensure "Made by" text is black */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f; /* Dark grey background */
+    color: #000; /* Black text color */
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff; /* Set background to white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow for better contrast */
+    padding: 30px;
+    width: 300px;
+}
+
+h1 {
+    font-size: 2.5em; /* Adjusted font size for headers */
+    margin: 0;
+    text-transform: uppercase; /* Make the text uppercase */
+}
+
+.weather-info {
+    margin: 20px 0; /* Space around weather info */
+    text-align: left; /* Align text to the left */
+}
+
+.weather-info p {
+    font-size: 1em; /* Normal font size for details */
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button {
+    background-color: #007BFF;
+    color: white; /* Keep button text white */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex; /* Flex to align icon */
+    align-items: center; /* Center the icon */
+}
+
+button i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+* {
+    box-sizing: border-box; /* Ensure padding and margin do not affect width */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative; /* Allow absolute positioning of rain */
+    background-color: #2f2f2f; /* Fallback color */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    max-width: 400px; /* Maximum width for container */
+    text-align: center; /* Center text */
+    position: relative; /* Position relative to allow z-index */
+    z-index: 1; /* Ensure it is above the rain */
+}
+
+header h1 {
+    font-size: 2.5em; /* Header font size */
+    margin: 0 0 10px; /* Space below the heading */
+    color: #007BFF; /* Blue color for the heading */
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0 0 20px; /* Space below the paragraph */
+    color: #333; /* Dark grey for the subheading */
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between select and button */
+    margin-bottom: 20px; /* Space below the search container */
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    flex-grow: 1; /* Allow select to grow */
+    margin-right: 10px; /* Space between select and button */
+    border: 1px solid #ccc; /* Light border for select */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    background-color: #007BFF; /* Button color */
+    color: white; /* Keep button text white */
+    border: none;
+    padding: 10px 15px; /* Padding for the button */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Flex to align icons */
+    align-items: center; /* Center icons vertically */
+    transition: background-color 0.3s ease;
+}
+
+button i {
+    margin-right: 5px; /* Space between icons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    margin-top: 20px; /* Space above footer */
+    font-size: 0.9em; /* Smaller font size for "Made by" */
+    color: #000; /* Black text for footer */
+}
+
+/* Rain Animation */
+@keyframes rain {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.rain {
+    position: absolute;
+    top: -20%; /* Start above the screen */
+    width: 1px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.8); /* Light rain color */
+    animation: rain linear infinite;
+    z-index: 0; /* Behind the container */
+}
+
+.rain:nth-child(1) {
+    left: 10%;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+}
+
+.rain:nth-child(2) {
+    left: 20%;
+    animation-duration: 0.7s;
+    animation-delay: 0.1s;
+}
+
+.rain:nth-child(3) {
+    left: 30%;
+    animation-duration: 0.6s;
+    animation-delay: 0.2s;
+}
+
+.rain:nth-child(4) {
+    left: 40%;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
+}
+
+.rain:nth-child(5) {
+    left: 50%;
+    animation-duration: 0.9s;
+    animation-delay: 0.4s;
+}
+
+.rain:nth-child(6) {
+    left: 60%;
+    animation-duration: 0.7s;
+    animation-delay: 0.5s;
+}
+
+.rain:nth-child(7) {
+    left: 70%;
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
+}
+
+.rain:nth-child(8) {
+    left: 80%;
+    animation-duration: 0.8s;
+    animation-delay: 0.7s;
+}
+
+.rain:nth-child(9) {
+    left: 90%;
+    animation-duration: 0.6s;
+    animation-delay: 0.8s;
+}
+
+/* Generate rain drops using JavaScript */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Ensure it is above the animations */
+}
+
+/* Weather condition styles */
+body.sunny {
+    background: linear-gradient(to bottom, #87CEFA, #FFDEAD);
+    animation: sunny-animation 10s infinite alternate;
+}
+
+body.rain {
+    background: linear-gradient(to bottom, #6DA5D8, #3B5998);
+    animation: rain-animation 1s infinite linear;
+}
+
+body.snow {
+    background: linear-gradient(to bottom, #B0E0E6, #E0FFFF);
+    animation: snow-animation 1s infinite linear;
+}
+
+body.cloudy {
+    background: linear-gradient(to bottom, #B0C4DE, #D3D3D3);
+    animation: cloudy-animation 10s infinite alternate;
+}
+
+/* Add animations */
+@keyframes sunny-animation {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+}
+
+@keyframes rain-animation {
+    /* Create a simple rain animation */
+    from { background-size: 100%; }
+    to { background-size: 110%; }
+}
+
+@keyframes snow-animation {
+    /* Create a snow animation */
+    from { background-size: 100%; }
+    to { background-size: 95%; }
+}
+
+@keyframes cloudy-animation {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-image: url('mercury-background.jpg'); /* Add the Mercury background image */
+    background-size: cover; /* Cover the whole background */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 600px; /* Make the box wider */
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Ensure it is above the animations */
+}
+
+h1 {
+    font-size: 2.5em; /* Header font size */
+    margin: 0 0 20px; /* Space below the heading */
+    color: #007BFF; /* Blue color for the heading */
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap */
+    margin-bottom: 20px; /* Space below the weather details */
+}
+
+.weather-detail {
+    width: 45%; /* Width for two items side by side */
+    margin: 10px 0; /* Space between weather details */
+}
+
+.left {
+    text-align: left; /* Left align text */
+}
+
+.right {
+    text-align: right; /* Right align text */
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional CSS for background animation as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-image: url('mercury-background.jpg'); /* Add the Mercury background image */
+    background-size: cover; /* Cover the whole background */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 600px; /* Adjusted width for better appearance */
+    width: 90%; /* Ensure the container is responsive */
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Ensure it is above the animations */
+}
+
+h1 {
+    font-size: 2.5em; /* Header font size */
+    margin: 0 0 20px; /* Space below the heading */
+    color: #007BFF; /* Blue color for the heading */
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap */
+    margin-bottom: 20px; /* Space below the weather details */
+}
+
+.weather-detail {
+    width: 45%; /* Width for two items side by side */
+    margin: 10px 0; /* Space between weather details */
+}
+
+.left {
+    text-align: left; /* Left align text */
+}
+
+.right {
+    text-align: right; /* Right align text */
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional CSS for background animation as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.5s ease; /* Smooth transition for background change */
+}
+
+/* Sunny Background */
+body.sunny {
+    background: linear-gradient(to bottom, #87CEFA, #FFDEAD);
+    animation: sunny-animation 10s infinite alternate; /* Add animation */
+}
+
+/* Rainy Background */
+body.rain {
+    background: linear-gradient(to bottom, #6DA5D8, #3B5998);
+    animation: rain-animation 1s infinite linear; /* Add animation */
+}
+
+/* Snowy Background */
+body.snow {
+    background: linear-gradient(to bottom, #B0E0E6, #E0FFFF);
+    animation: snow-animation 10s infinite alternate; /* Add animation */
+}
+
+/* Lightning Background */
+body.lightning {
+    background: linear-gradient(to bottom, #808080, #000000);
+    animation: lightning-animation 10s infinite alternate; /* Add animation */
+}
+
+/* Cloud Animation */
+@keyframes rain-animation {
+    from { background-position: 0% 0%; }
+    to { background-position: 100% 0%; }
+}
+
+/* Mercury Page Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 600px; /* Adjusted width for better appearance */
+    width: 90%; /* Ensure the container is responsive */
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Ensure it is above the background */
+}
+
+h1 {
+    font-size: 2.5em; /* Header font size */
+    margin: 0 0 20px; /* Space below the heading */
+    color: #007BFF; /* Blue color for the heading */
+}
+
+/* Weather Info Styles */
+.weather-info {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap */
+    margin-bottom: 20px; /* Space below the weather details */
+}
+
+.weather-detail {
+    width: 45%; /* Width for two items side by side */
+    margin: 10px 0; /* Space between weather details */
+}
+
+.left {
+    text-align: left; /* Left align text */
+}
+
+.right {
+    text-align: right; /* Right align text */
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add more animations as needed */

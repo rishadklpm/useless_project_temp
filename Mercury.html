@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercury Today</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mercury Today</h1>
+        <div class="weather-info">
+            <div class="weather-detail left"><strong>Temperature:</strong> -173°C (night) to 427°C (day)</div>
+            <div class="weather-detail right"><strong>Humidity:</strong> 0%</div>
+            <div class="weather-detail left"><strong>Wind Speed:</strong> 0 km/h (very thin atmosphere)</div>
+            <div class="weather-detail right"><strong>Condition:</strong> Extremely hot and cold</div>
+            <div class="weather-detail left"><strong>Sunrise:</strong> Approximately 176 Earth days</div>
+            <div class="weather-detail right"><strong>Sunset:</strong> Approximately 176 Earth days</div>
+        </div>
+        <a href="index.html" class="back-button">Back to Home</a>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function changeBackground() {
+            const conditions = ['sunny', 'rain', 'snow', 'lightning'];
+            document.body.className = conditions[Math.floor(Math.random() * conditions.length)];
+        }
+        setInterval(changeBackground, 300000);
+        changeBackground();
+    </script>
+</body>
+</html>

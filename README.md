@@ -19,15 +19,15 @@ Beyond is a universal weather forecast website ,Where we can find weather and co
 When we are traveling to another planet ,how we can check the temperature of other planets?
 
 ### The Solution (that nobody asked for)
-we will think about that only if we are going there 
+we will think about that only if we are going there and if we we go there in future our website can be used to analyse the climate of that certain planet
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- html, css, javascript
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
+- vs code
 
 For Hardware:
 - [List main components]
@@ -87,9 +87,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Sahal: code enhancing and modifying
+- Rishad: coding and executing
+- Mishal: code enhancing and modifying
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 

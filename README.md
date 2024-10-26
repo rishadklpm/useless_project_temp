@@ -1,25 +1,25 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Beyond 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Syntax 404
 
 
 ### Team Members
-- Team Lead: Rishad - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Sahal - TKM CE
+- Member 2: Rishad - TKM CE
+- Member 3: Mishal - TKM CE
 
 ### Project Description
-[2-3 lines about what your project does]
+Beyond is a universal weather forecast website ,Where we can find weather and conditions of planets other than Earth.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+When we are traveling to another planet ,how we can check the temperature of other planets?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+we will think about that only if we are going there 
 
 ## Technical Details
 ### Technologies/Components Used

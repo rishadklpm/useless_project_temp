@@ -1,4 +1,4 @@
-<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+![Screenshot 2024-10-26 075047](https://github.com/user-attachments/assets/f261f22b-31c5-48d3-9ce0-a7c4c84e9dd4)<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 # Beyond 🎯
 
@@ -46,14 +46,17 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](Add screenshot 1 here with proper name)![Screenshot 2024-10-26 074937](https://github.com/user-attachments/assets/9debce38-f326-49d3-b7b9-594d8851a656)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Launching Page of Beyond with dropdown to select a planet and search option*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](Add screenshot 2 here with proper name)![Screenshot 2024-10-26 075047](https://github.com/user-attachments/assets/eb06ef08-25b2-4e66-99eb-664f26836e74)
+
+*The dropdown containing planets options other than earth*
+
+![Screenshot3](Add screenshot 3 here with proper name)![Screenshot 2024-10-26 075114](https://github.com/user-attachments/assets/aee427df-b5be-4daf-816d-612880bb564b)
+
+*Page shows a planets weather details of today*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -81,6 +84,10 @@ For Hardware:
 ### Project Demo
 # Video
 [Add your demo video link here]
+
+Uploading Screen Recording 2024-10-26 080057.mp4…
+
+
 *Explain what the video demonstrates*
 
 # Additional Demos
